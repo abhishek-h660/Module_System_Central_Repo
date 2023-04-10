@@ -1,1 +1,2 @@
-Hii I am test1.h
+#pragma once
+void callDependency();
