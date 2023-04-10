@@ -1,2 +1,10 @@
-hii I am test1.c
-Does line break afeects?
+#include <stdio.h>
+#include "./dependency.h"
+
+void dependency() {
+    printf("Hii, from internet");
+}
+
+void callDependency() {
+    dependency();
+}
