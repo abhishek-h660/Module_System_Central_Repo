@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "./dependency.h"
+#include "./test1.h"
 
 void dependency() {
     printf("Hii, from internet");
